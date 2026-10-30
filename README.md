@@ -22,7 +22,7 @@ Mein Hintergrund liegt im strategischen Einkauf und im Produktmanagement. Deshal
 
 ## Projekte
 
-### [procurement-rag-agent](https://github.com/MaxXSammy/procurement-rag-agent)
+### [procurement-rag-agent](https://github.com/MaxXSammy/procurement-rag-agent) · [▶ Live-Demo](https://procurement-rag-agent.streamlit.app/)
 
 KI-gestützte Lieferantenauswahl. Der Agent durchsucht Angebote, Selbstauskünfte und Verträge, extrahiert strukturierte Lieferantenprofile und bewertet sie nach frei einstellbaren Kriterien. Ein Dashboard zeigt der Geschäftsleitung Einsparpotenzial, Zeitersparnis und die gemessene Zuverlässigkeit des Systems.
 
