@@ -32,6 +32,16 @@ KI-gestützte Lieferantenauswahl. Der Agent durchsucht Angebote, Selbstauskünft
 
 <sub>Python · Ollama · RAG · Tool Calling · Pydantic · scikit-learn · Streamlit · pytest</sub>
 
+### [n8n-supplier-mail-triage](https://github.com/MaxXSammy/n8n-supplier-mail-triage)
+
+Self-hosted n8n-Workflow, der Lieferanten-Mails automatisch einordnet. Ein lokales LLM erkennt Angebot, Reklamation, Lieferverzug oder Rechnung und extrahiert die Daten. Danach landet die Mail als Ticket beim zuständigen Team. Unsichere und verdächtige Fälle gehen an einen Menschen.
+
+- Validierung im Code statt Vertrauen in die Konfidenz: Belegprüfung, Pflichtfelder, Betrugsschutz bei geänderten Bankdaten, Erkennung von Prompt-Injection
+- Human-in-the-loop mit Review-Queue und Formular, Error-Workflow, Retry und Duplikaterkennung
+- Messung gegen Gold-Daten und zwölf Angriffstests: 0 Mails falsch automatisch geroutet
+
+<sub>n8n · Ollama · PostgreSQL · Docker · JSON-Schema · JavaScript · Python</sub>
+
 ### [site-report-bot](https://github.com/MaxXSammy/site-report-bot)
 
 Baustellendokumentation per Messenger. Handwerker schicken Fotos und Sprachnachrichten, und der Bot erstellt daraus einen strukturierten PDF-Bericht. Alles läuft lokal, ohne Cloud-KI.
@@ -51,10 +61,6 @@ Lieferantenangebote in mehreren Währungen vergleichbar machen und nach gewichte
 - Streamlit-Oberfläche mit einstellbaren Gewichten
 
 <sub>Python · pandas · Streamlit · OpenAI API · REST</sub>
-
-### In Arbeit
-
-**B2B Workflow Automation:** self-hosted n8n mit Intent-Klassifizierung
 
 <br>
 
