@@ -22,6 +22,16 @@ Mein Hintergrund liegt im strategischen Einkauf und im Produktmanagement. Deshal
 
 ## Projekte
 
+### [procurement-rag-agent](https://github.com/MaxXSammy/procurement-rag-agent)
+
+KI-gestützte Lieferantenauswahl. Der Agent durchsucht Angebote, Selbstauskünfte und Verträge, extrahiert strukturierte Lieferantenprofile und bewertet sie nach frei einstellbaren Kriterien. Ein Dashboard zeigt der Geschäftsleitung Einsparpotenzial, Zeitersparnis und die gemessene Zuverlässigkeit des Systems.
+
+- RAG mit Quellenangabe und Agent mit Tool Calling: Er entscheidet selbst zwischen Dokumentsuche, Ranking und Lieferantenprofil
+- Belegprüfung: Jede extrahierte Zahl muss im Quelldokument stehen, sonst wird sie verworfen
+- Evaluation gegen Gold-Daten mit Regel-Basislinie als Vergleich, damit der Nutzen des LLM messbar ist
+
+<sub>Python · Ollama · RAG · Tool Calling · Pydantic · scikit-learn · Streamlit · pytest</sub>
+
 ### [site-report-bot](https://github.com/MaxXSammy/site-report-bot)
 
 Baustellendokumentation per Messenger. Handwerker schicken Fotos und Sprachnachrichten, und der Bot erstellt daraus einen strukturierten PDF-Bericht. Alles läuft lokal, ohne Cloud-KI.
@@ -44,7 +54,6 @@ Lieferantenangebote in mehreren Währungen vergleichbar machen und nach gewichte
 
 ### In Arbeit
 
-**AI Procurement Agent:** RAG über Lieferantendokumente, Tool Calling und messbare Evaluation<br>
 **B2B Workflow Automation:** self-hosted n8n mit Intent-Klassifizierung
 
 <br>
@@ -63,6 +72,6 @@ Lieferantenangebote in mehreren Währungen vergleichbar machen und nach gewichte
 ## Stack
 
 **Sprache & Daten:** Python, pandas, Pydantic<br>
-**KI:** Ollama, OpenAI API, faster-whisper, Prompt Engineering, Structured Output<br>
+**KI:** Ollama, OpenAI API, RAG, Tool Calling, faster-whisper, Structured Output, Evaluation<br>
 **Apps & Automatisierung:** FastAPI, Streamlit, n8n, REST APIs<br>
 **Qualität:** pytest, Ruff, Git
