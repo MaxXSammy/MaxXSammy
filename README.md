@@ -48,7 +48,7 @@ Baustellendokumentation per Messenger. Handwerker schicken Fotos und Sprachnachr
 
 - Halluzinationskontrolle im Code: Jeder Name und jede Zahl im Bericht wird gegen die Originalnotizen geprüft
 - Kanalunabhängiger Kern mit austauschbarem LLM-Provider: Telegram ist aktiv, WhatsApp vorbereitet
-- Pydantic-Schema, Dependency Injection, 27 Tests ohne echtes Modell
+- Pydantic-Schema, Dependency Injection, 40 Tests ohne echtes Modell
 
 <sub>Python · Ollama (qwen2.5-vl) · faster-whisper · Pydantic · FastAPI · pytest</sub>
 
