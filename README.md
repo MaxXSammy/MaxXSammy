@@ -32,13 +32,13 @@ KI-gestützte Lieferantenauswahl. Der Agent durchsucht Angebote, Selbstauskünft
 
 <sub>Python · Ollama · RAG · Tool Calling · Pydantic · scikit-learn · Streamlit · pytest</sub>
 
-### [n8n-supplier-mail-triage](https://github.com/MaxXSammy/n8n-supplier-mail-triage)
+### [procurepulse-ai](https://github.com/MaxXSammy/procurepulse-ai)
 
-Self-hosted n8n-Workflow, der Lieferanten-Mails automatisch einordnet. Ein lokales LLM erkennt Angebot, Reklamation, Lieferverzug oder Rechnung und extrahiert die Daten. Danach landet die Mail als Ticket beim zuständigen Team. Unsichere und verdächtige Fälle gehen an einen Menschen.
+ProcurePulse ordnet Lieferanten-Mails automatisch ein und führt den Einkauf durch die Entscheidung. Ein lokales LLM erkennt Angebot, Auftragsbestätigung, Preiserhöhung, Reklamation oder Rechnung und extrahiert die Daten. Eine Arbeitsoberfläche zeigt je Vorgang eine begründete Empfehlung, die Vorgeschichte mit dem Lieferanten und Freigaben je Abteilung. Unsichere und verdächtige Fälle gehen an einen Menschen.
 
 - Validierung im Code statt Vertrauen in die Konfidenz: Belegprüfung, Pflichtfelder, Betrugsschutz bei geänderten Bankdaten, Erkennung von Prompt-Injection
-- Human-in-the-loop mit Review-Queue und Formular, Error-Workflow, Retry und Duplikaterkennung
-- Messung gegen Gold-Daten und zwölf Angriffstests: 0 Mails falsch automatisch geroutet
+- Preiserhöhungen mit Jahreswirkung, gestufter Eskalation und Sperre, bis Technik und QM Werkstoffänderungen freigegeben haben. Audit-Protokoll mit Hash-Kette, Screenshot-Modus für vertrauliche Daten
+- Messung gegen 43 Test-Mails und 15 Angriffstests: 0 Mails falsch automatisch geroutet
 
 <sub>n8n · Ollama · PostgreSQL · Docker · JSON-Schema · JavaScript · Python</sub>
 
