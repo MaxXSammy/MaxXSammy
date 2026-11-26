@@ -38,7 +38,7 @@ Self-hosted n8n-Workflow, der Lieferanten-Mails automatisch einordnet. Ein lokal
 
 - Validierung im Code statt Vertrauen in die Konfidenz: Belegprüfung, Pflichtfelder, Betrugsschutz bei geänderten Bankdaten, Erkennung von Prompt-Injection
 - Human-in-the-loop mit Review-Queue und Formular, Error-Workflow, Retry und Duplikaterkennung
-- Messung gegen Gold-Daten und zwölf Angriffstests: 0 Mails falsch automatisch geroutet
+- Gemessen auf 99 nie gesehenen, synthetischen Mails: 78 % Kategorie richtig (Regel-Basislinie ohne KI: 59 %), 11 Mails falsch automatisch geroutet. Zusätzlich zwölf Angriffstests
 
 <sub>n8n · Ollama · PostgreSQL · Docker · JSON-Schema · JavaScript · Python</sub>
 
