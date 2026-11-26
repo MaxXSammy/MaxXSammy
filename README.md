@@ -16,7 +16,7 @@ Ich baue KI-Systeme, die in echten Geschäftsprozessen funktionieren müssen, ni
 
 Mein Hintergrund liegt im strategischen Einkauf und im Produktmanagement. Deshalb beginne ich nicht beim Modell, sondern beim Prozess: Wo geht Zeit verloren, wo entstehen Fehler, und was muss ein System leisten, damit man ihm vertrauen kann?
 
-**Aktuell:** Weiterbildung zum AI Engineer & KI-Manager (DEKRA/TÜV-zertifiziert, bis 02/2027). Offen für Remote-Rollen in AI Engineering, AI Automation und KI-Transformation.
+**Aktuell:** Weiterbildung zum AI Engineer & KI-Manager (DEKRA-zertifiziert, bis 02/2027). Offen für Remote-Rollen in AI Engineering, AI Automation und KI-Transformation.
 
 <br>
 
@@ -38,7 +38,7 @@ Self-hosted n8n-Workflow, der Lieferanten-Mails automatisch einordnet. Ein lokal
 
 - Validierung im Code statt Vertrauen in die Konfidenz: Belegprüfung, Pflichtfelder, Betrugsschutz bei geänderten Bankdaten, Erkennung von Prompt-Injection
 - Human-in-the-loop mit Review-Queue und Formular, Error-Workflow, Retry und Duplikaterkennung
-- Messung gegen Gold-Daten und zwölf Angriffstests: 0 Mails falsch automatisch geroutet
+- Gemessen auf 99 nie gesehenen, synthetischen Mails: 78 % Kategorie richtig (Regel-Basislinie ohne KI: 59 %), 11 Mails falsch automatisch geroutet. Zusätzlich zwölf Angriffstests
 
 <sub>n8n · Ollama · PostgreSQL · Docker · JSON-Schema · JavaScript · Python</sub>
 
