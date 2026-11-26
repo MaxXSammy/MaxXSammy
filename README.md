@@ -16,7 +16,7 @@ Ich baue KI-Systeme, die in echten Geschäftsprozessen funktionieren müssen, ni
 
 Mein Hintergrund liegt im strategischen Einkauf und im Produktmanagement. Deshalb beginne ich nicht beim Modell, sondern beim Prozess: Wo geht Zeit verloren, wo entstehen Fehler, und was muss ein System leisten, damit man ihm vertrauen kann?
 
-**Aktuell:** Weiterbildung zum AI Engineer & KI-Manager (DEKRA/TÜV-zertifiziert, bis 02/2027). Offen für Remote-Rollen in AI Engineering, AI Automation und KI-Transformation.
+**Aktuell:** Weiterbildung zum AI Engineer & KI-Manager (DEKRA-zertifiziert, bis 02/2027). Offen für Remote-Rollen in AI Engineering, AI Automation und KI-Transformation.
 
 <br>
 
